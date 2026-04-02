@@ -19,7 +19,7 @@ const BOTTOM_NAV: { id: string; label: string; icon: "profile" | "skills" | "pro
 
 const TECH_STACK = [
   "React.js","Next.js","Node.js","Express.js","MongoDB","Socket.io",
-  "JWT","React Native","TypeScript","Python","FastAPI","Cloudinary",
+  "JWT","-","TypeScript","Python","FastAPI","Cloudinary",
   "Redux","Tailwind CSS",
 ];
 const TOOLS = [
@@ -62,12 +62,12 @@ const JOURNEY_EDU = [
 
 const CERTS = [
   { year: "2024", title: "Full Stack Web Development", body: "FreeCodeCamp / Self-paced" },
-  { year: "2024", title: "React Native — The Practical Guide", body: "FreeCodeCamp" },
+  { year: "2024", title: "- — The Practical Guide", body: "FreeCodeCamp" },
   { year: "2023", title: "Basics of Web Development", body: "FreeCodeCamp" },
 ];
 
 const MARQUEE_TEXT =
-  "#STACK: MERN · REACT NATIVE · NODE.JS · MONGODB · SOCKET.IO · NEXT.JS · TYPESCRIPT · FASTAPI · ";
+  "#STACK: MERN · - · NODE.JS · MONGODB · SOCKET.IO · NEXT.JS · TYPESCRIPT · FASTAPI · ";
 
 const SunIcon = () => (
   <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
