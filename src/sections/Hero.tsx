@@ -1,5 +1,5 @@
 "use client";
-
+import React from "react";
 import { useEffect, useState, useCallback } from "react";
 
 const NAV_ITEMS = [
@@ -153,7 +153,7 @@ const JourneyIcon = ({ active }: { active: boolean }) => (
   </svg>
 );
 
-const TAB_ICONS: Record<"profile" | "skills" | "projects" | "journey", ({ active }: { active: boolean }) => JSX.Element> = {
+const TAB_ICONS: Record<"profile" | "skills" | "projects" | "journey", ({ active }: { active: boolean }) => React.ReactNode> = {
   profile: ProfileIcon,
   skills: SkillsIcon,
   projects: ProjectsIcon,
